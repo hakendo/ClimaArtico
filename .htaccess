@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|content|scripts|robots\.txt)
+RewriteRule ^(.*)$ /climaarticocode/index.php/$1 [L]
